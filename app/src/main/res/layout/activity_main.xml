@@ -3,8 +3,22 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_light"
+    android:background="#a0ac48"
+    android:padding="4dp"
     tools:context="com.example.android.happyfailure.MainActivity">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <item name="colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">@color/colorPrimary</item>
+        <item name="colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">@color/colorPrimaryDark</item>
+        <item name="colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">@color/colorAccent</item>
+    </style>
     <ImageView
         android:src="@drawable/marathon"
         android:layout_width="match_parent"
