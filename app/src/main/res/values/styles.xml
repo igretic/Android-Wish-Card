@@ -1,17 +1,10 @@
-<resources xmlns:android="http://schemas.android.com/tools">
+<resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <item name="colorPrimary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">@color/colorPrimary</item>
-        <item name="colorPrimaryDark"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">@color/colorPrimaryDark</item>
-        <item name="colorAccent"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">@color/colorAccent</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 </resources>
+
